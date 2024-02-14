@@ -1,5 +1,9 @@
 $( document ).ready(function() {
-    
+    // Obtener el elemento de audio
+    var audio = document.getElementById("miAudio");
+
+    // Reproducir la música al cargar la página
+    audio.play();
     var envelope = $('#envelope');
     var btn_open = $("#open");
     var btn_reset = $("#reset");
