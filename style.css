@@ -1,5 +1,5 @@
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   zoom: 150%; /* Aplicar zoom para mejorar la legibilidad en dispositivos móviles */
 
 }
 .envlope-wrapper {
@@ -119,7 +119,7 @@ body {
 .leer {
   transform: scale(1.7) translateY(-100px) !important;
   z-index: 1000 !important;
-  height: 400px !important;
+  height: 450px !important;
   top: 100px;  
 }
 
